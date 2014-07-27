@@ -24,20 +24,20 @@ Summary of run_analysis.R script
 The script is broken in three parts: Prepare test data, prepare train data and apppend both data sets with averaged by subject and activity as a master data
 
 ### Part 1: Prepare test data sets
-Step 1 - Load features, x_test, y_test, subject test and activity labels data sets
-Step 2 - Flag the mean and standard deviation from features using regular expression
-Step 3 - Use the features_reduced to reduce x_test data
-Step 4 - Merge activity to test data using column 1 from y test as the common ID
-Step 5 - Merge test data sets
-test_master <- cbind(as.data.table(subject_test), y_test, x_test)
+    Step 1 - Load features, x_test, y_test, subject test and activity labels data sets
+
+    Step 2 - Flag the mean and standard deviation from features using regular expression
+- Step 3 - Use the features_reduced to reduce x_test data
+- Step 4 - Merge activity to test data using column 1 from y test as the common ID
+- Step 5 - Merge test data sets
 
 ### Part 2: Prepare train data sets
-Step 1 - Load activity labels, features, x_test, y_test and subject test data sets
-Step 2 - Use the features_reduced to reduce x_train data
-Step 3 - Add activity column to train data
-Step 4 - Merge train data sets
+- Step 1 - Load activity labels, features, x_test, y_test and subject test data sets
+- Step 2 - Use the features_reduced to reduce x_train data
+- Step 3 - Add activity column to train data
+- Step 4 - Merge train data sets
 
 ### Part 3 - Append test and train data sets and provide summary statistics
-Step 1 - Append train data and test data
-Step 2 - Average data set by subject and label
-Step 3 - Output data set
+- Step 1 - Append train data and test data
+- Step 2 - Average data set by subject and label
+- Step 3 - Output data set
