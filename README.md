@@ -24,9 +24,8 @@ Summary of run_analysis.R script
 The script is broken in three parts: Prepare test data, prepare train data and apppend both data sets with averaged by subject and activity as a master data
 
 ### Part 1: Prepare test data sets
-    Step 1 - Load features, x_test, y_test, subject test and activity labels data sets
-
-    Step 2 - Flag the mean and standard deviation from features using regular expression
+- Step 1 - Load features, x_test, y_test, subject test and activity labels data sets
+- Step 2 - Flag the mean and standard deviation from features using regular expression
 - Step 3 - Use the features_reduced to reduce x_test data
 - Step 4 - Merge activity to test data using column 1 from y test as the common ID
 - Step 5 - Merge test data sets
